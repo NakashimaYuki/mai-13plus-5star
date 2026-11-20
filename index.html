@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#F2F5FA" />
+  <title>舞萌 13+ 五星进度表</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="masthead-top">
+        <div class="title-block">
+          <h1 id="pageTitle">舞萌 13+ 五星进度表</h1>
+          <p class="sync-note" id="syncStatusText">未同步查分器，接入落雪或水鱼后自动记录进度</p>
+        </div>
+        <div class="masthead-actions">
+          <button class="btn btn-secondary" id="btnQuickRefresh" style="display:none" title="使用已保存的密钥刷新成绩">刷新成绩</button>
+          <button class="btn btn-primary" id="btnOpenSync">同步成绩</button>
+          <button class="btn btn-quiet" id="btnToggleEdit">编辑榜单</button>
+        </div>
+      </div>
+
+      <div class="ledger-strip">
+        <div class="ledger-main">
+          <span class="ledger-count" id="overallDoneNum">0</span>
+          <span class="ledger-total" id="overallTotalNum">/ 371</span>
+          <span class="ledger-pct" id="overallPctNum">0.0%</span>
+        </div>
+
+        <div class="ledger-actions">
+          <button class="ledger-stat ledger-stat-near" id="pillNear5" title="只看距 5★ 不超过 15 分的谱面">
+            <span class="ledger-stat-k">5★ -15 以内</span>
+            <span class="ledger-stat-v" id="statNearCount">0</span>
+          </button>
+
+          <button class="ledger-stat ledger-stat-bpm" id="pillBpm3600" title="只看好BPM谱面（3600 可整除 BPM）">
+            <span class="ledger-stat-k">
+              <svg class="icon-metronome" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.8 14L6.8 2.5h2.4L11.2 14H4.8z"/><path d="M3.2 14h9.6"/><path d="M8 11.5L12.6 4.2"/><circle cx="11.2" cy="6.4" r="1.25" fill="currentColor" stroke="none"/></svg>
+              好BPM
+            </span>
+            <span class="ledger-stat-v" id="statBpmProgress">0 / 74</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="edit-banner" id="editBanner" style="display:none">
+        <div class="edit-banner-info">
+          <strong>编辑模式</strong>
+          <span>桌面端直接拖拽曲绘调档与排序，手机端点击曲绘移至目标档位。改动自动暂存在当前浏览器。</span>
+        </div>
+        <div class="edit-banner-actions">
+          <button class="btn btn-sm btn-primary" id="btnCheckUpdates">检测曲库新增 13+</button>
+          <button class="btn btn-sm btn-secondary" id="btnExportJson">导出 JSON</button>
+          <button class="btn btn-sm btn-quiet" id="btnImportJson">导入 JSON</button>
+          <button class="btn btn-sm btn-danger" id="btnResetDefault">恢复默认</button>
+          <input type="file" id="fileImportJson" accept=".json,application/json" style="display:none" />
+        </div>
+      </div>
+    </div>
+
+    <div class="masthead-rail" aria-hidden="true">
+      <div class="masthead-rail-fill" id="overallProgressFill" style="width:0%"></div>
+    </div>
+  </header>
+
+  <nav class="toolbar" aria-label="视图与筛选">
+    <div class="toolbar-inner">
+      <div class="toolbar-row toolbar-row-top">
+        <div class="view-tabs" id="viewModeGroup" role="tablist">
+          <button class="view-tab active" data-view="tier" role="tab" aria-selected="true">原版榜单</button>
+          <button class="view-tab" data-view="gap" role="tab" aria-selected="false">按差值</button>
+          <button class="view-tab" data-view="ds" role="tab" aria-selected="false">按定数</button>
+          <button class="view-tab" data-view="version" role="tab" aria-selected="false">按版本</button>
+        </div>
+
+        <div class="toolbar-right">
+          <div class="density-group" title="调整曲绘尺寸">
+            <button class="filter-btn" data-size="sm">紧凑</button>
+            <button class="filter-btn active" data-size="md">标准</button>
+            <button class="filter-btn" data-size="lg">大图</button>
+          </div>
+          <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="M13.5 13.5L17 17"/></svg>
+            <input type="search" id="searchInput" placeholder="搜索曲名、曲师、BPM 或 ID" autocomplete="off" />
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar-row toolbar-row-filters">
+        <div class="filter-group" id="statusFilterGroup">
+          <button class="filter-btn active" data-status="all">全部</button>
+          <button class="filter-btn" data-status="uncompleted">未 5★</button>
+          <button class="filter-btn" data-status="completed">已 5★</button>
+          <button class="filter-btn" data-status="near">5★ -15 以内</button>
+          <button class="filter-btn" data-status="unplayed">未游玩</button>
+        </div>
+
+        <span class="toolbar-sep" aria-hidden="true"></span>
+
+        <button class="filter-btn filter-btn-bpm" id="filterBpmToggle" aria-pressed="false">
+          <svg class="icon-metronome" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.8 14L6.8 2.5h2.4L11.2 14H4.8z"/><path d="M3.2 14h9.6"/><path d="M8 11.5L12.6 4.2"/><circle cx="11.2" cy="6.4" r="1.25" fill="currentColor" stroke="none"/></svg>
+          仅好BPM
+        </button>
+
+        <span class="toolbar-sep" aria-hidden="true"></span>
+
+        <div class="filter-group" id="diffFilterGroup">
+          <button class="filter-btn active" data-diff="all">全难度</button>
+          <button class="filter-btn" data-diff="2">EXP</button>
+          <button class="filter-btn" data-diff="3">MAS</button>
+          <button class="filter-btn" data-diff="4">Re:M</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="boardContainer" class="board size-md" aria-live="polite">
+    <div class="loading-box">正在加载曲库与难度表...</div>
+  </main>
+
+  <footer class="footer">
+    <span>曲库与曲绘来自落雪（LXNS）公开接口，查分密钥与成绩仅保存于当前浏览器本地存储。</span>
+    <span id="catalogStatusText"></span>
+  </footer>
+
+  <!-- Sync Modal -->
+  <div class="modal-backdrop" id="syncModal" style="display:none">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="syncModalTitle">
+      <div class="modal-header">
+        <h2 id="syncModalTitle">同步查分器成绩</h2>
+        <button class="icon-close" data-close="syncModal" aria-label="关闭">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="source-tabs" id="sourceTabs">
+          <button class="source-tab active" data-source="lxns">落雪咖啡屋（优先）</button>
+          <button class="source-tab" data-source="df">水鱼查分器</button>
+        </div>
+
+        <div id="panelLxns" class="source-panel">
+          <label class="field-label" for="lxnsTokenInput">落雪个人 API 密钥（X-User-Token）</label>
+          <input type="password" id="lxnsTokenInput" class="text-input" placeholder="粘贴个人 API 密钥" autocomplete="off" />
+          <p class="field-hint">
+            前往 <a href="https://maimai.lxns.net/user/profile" target="_blank" rel="noopener">落雪账号详情页</a> 复制个人 API 密钥。密钥仅存在当前浏览器中，直接请求落雪官方接口。
+          </p>
+        </div>
+
+        <div id="panelDf" class="source-panel" style="display:none">
+          <label class="field-label" for="dfTokenInput">水鱼成绩导入 Token（Import-Token）</label>
+          <input type="password" id="dfTokenInput" class="text-input" placeholder="粘贴水鱼 Import-Token" autocomplete="off" />
+          <p class="field-hint">
+            前往 <a href="https://www.diving-fish.com/maimaidx/prober/" target="_blank" rel="noopener">水鱼查分器个人资料</a> 复制成绩导入 Token，以拉取全部谱面的 DX 分数。
+          </p>
+        </div>
+
+        <div id="syncFeedback" class="feedback-msg" style="display:none"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-quiet" id="btnClearSaved">清除本地密钥与缓存</button>
+        <button class="btn btn-primary" id="btnDoSync">同步成绩</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chart Detail / Edit Modal -->
+  <div class="modal-backdrop" id="detailModal" style="display:none">
+    <div class="modal modal-detail" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+      <div class="modal-header">
+        <h2 id="detailTitle">谱面详情</h2>
+        <button class="icon-close" data-close="detailModal" aria-label="关闭">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="detailBody"></div>
+    </div>
+  </div>
+
+  <!-- Catalog Diff Modal (Edit Mode) -->
+  <div class="modal-backdrop" id="updatesModal" style="display:none">
+    <div class="modal modal-wide" role="dialog" aria-modal="true" aria-labelledby="updatesTitle">
+      <div class="modal-header">
+        <h2 id="updatesTitle">国服 13+ 曲库变更</h2>
+        <button class="icon-close" data-close="updatesModal" aria-label="关闭">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="updatesBody"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

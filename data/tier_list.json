@@ -1,0 +1,2289 @@
+{
+  "name": "国服舞萌 13+ 五星难度表",
+  "version": 1,
+  "updatedAt": "2026-11-20",
+  "tiers": [
+    {
+      "id": "baka",
+      "name": "バカ",
+      "color": "#c9c2c9",
+      "charts": [
+        {
+          "id": 133,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "We Gonna Party"
+        },
+        {
+          "id": 1817,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Amereistr"
+        }
+      ]
+    },
+    {
+      "id": "hang_bao",
+      "name": "夯爆了",
+      "color": "#c387cc",
+      "charts": [
+        {
+          "id": 240,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Beat of getting entangled"
+        },
+        {
+          "id": 411,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "初音ミクの消失"
+        },
+        {
+          "id": 114,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Space Harrier Main Theme [Reborn]"
+        },
+        {
+          "id": 255,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "Burning Hearts ～炎のANGEL～"
+        },
+        {
+          "id": 834,
+          "type": "standard",
+          "difficulty": 2,
+          "title": "PANDORA PARADOXXX"
+        },
+        {
+          "id": 1502,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "エナドリおいしいソング"
+        },
+        {
+          "id": 389,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "FLOWER"
+        },
+        {
+          "id": 1468,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "星見草"
+        },
+        {
+          "id": 592,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Sakura Fubuki"
+        },
+        {
+          "id": 574,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Selector"
+        },
+        {
+          "id": 264,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "L'épilogue"
+        },
+        {
+          "id": 631,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "KING is BACK!!"
+        },
+        {
+          "id": 495,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Hyper Active"
+        },
+        {
+          "id": 386,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Scars of FAUNA"
+        },
+        {
+          "id": 144,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "air's gravity"
+        },
+        {
+          "id": 463,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "FEEL the BEATS"
+        }
+      ]
+    },
+    {
+      "id": "hang",
+      "name": "夯",
+      "color": "#ff7f7f",
+      "charts": [
+        {
+          "id": 612,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "GO BACK 2 YOUR RAVE"
+        },
+        {
+          "id": 672,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "MilK"
+        },
+        {
+          "id": 705,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Mare Maris"
+        },
+        {
+          "id": 85,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "JACKY [Remix]"
+        },
+        {
+          "id": 133,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "We Gonna Party"
+        },
+        {
+          "id": 132,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Turn around"
+        },
+        {
+          "id": 1460,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Neon Kingdom"
+        },
+        {
+          "id": 572,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Scream out! -maimai SONIC WASHER Edit-"
+        },
+        {
+          "id": 1535,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Redemption"
+        },
+        {
+          "id": 376,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "L9"
+        },
+        {
+          "id": 745,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "keep hopping"
+        },
+        {
+          "id": 339,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "DRAGONLADY"
+        },
+        {
+          "id": 1314,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "LiftOff"
+        },
+        {
+          "id": 23,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "Crush On You"
+        },
+        {
+          "id": 115,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "DADDY MULK -Groove remix-"
+        },
+        {
+          "id": 530,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "高気圧ねこロック"
+        },
+        {
+          "id": 460,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "閃鋼のブリューナク"
+        },
+        {
+          "id": 247,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "Danza zandA"
+        },
+        {
+          "id": 130,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "FEEL ALIVE"
+        },
+        {
+          "id": 771,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "We Gonna Journey"
+        },
+        {
+          "id": 346,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "オパ! オパ! RACER -GMT mashup-"
+        },
+        {
+          "id": 734,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ENERGY SYNERGY MATRIX"
+        },
+        {
+          "id": 756,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "CYBER Sparks"
+        },
+        {
+          "id": 1207,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Ether Strike"
+        }
+      ]
+    },
+    {
+      "id": "dingji",
+      "name": "顶级",
+      "color": "#ffbf7f",
+      "charts": [
+        {
+          "id": 446,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "GEMINI -M-"
+        },
+        {
+          "id": 454,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "After Burner"
+        },
+        {
+          "id": 400,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "デッドレッドガールズ"
+        },
+        {
+          "id": 260,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "LUCIA"
+        },
+        {
+          "id": 136,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Streak"
+        },
+        {
+          "id": 463,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "FEEL the BEATS"
+        },
+        {
+          "id": 238,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Get Happy"
+        },
+        {
+          "id": 422,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "LANCE"
+        },
+        {
+          "id": 299,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ロストワンの号哭"
+        },
+        {
+          "id": 269,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "裏表ラバーズ"
+        },
+        {
+          "id": 223,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "夜咄ディセイブ"
+        },
+        {
+          "id": 464,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Revive The Rave"
+        },
+        {
+          "id": 573,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "四月の雨"
+        },
+        {
+          "id": 1743,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "天蓋"
+        },
+        {
+          "id": 1241,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "単一指向性オーバーブルーム"
+        },
+        {
+          "id": 680,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Candy Tall Woman"
+        },
+        {
+          "id": 649,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "猛進ソリストライフ！"
+        },
+        {
+          "id": 1287,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Strange Bar"
+        },
+        {
+          "id": 347,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "電車で電車でOPA!OPA!OPA! -GMT mashup-"
+        },
+        {
+          "id": 1158,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Komplexe"
+        },
+        {
+          "id": 1425,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "First Dance"
+        },
+        {
+          "id": 115,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "DADDY MULK -Groove remix-"
+        },
+        {
+          "id": 769,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "なるとなぎのパーフェクトロックンロール教室"
+        },
+        {
+          "id": 666,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "デスパレイト"
+        },
+        {
+          "id": 1333,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "Southern Cross"
+        },
+        {
+          "id": 268,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "トルコ行進曲 - オワタ＼(^o^)／"
+        },
+        {
+          "id": 285,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "magician's operation"
+        },
+        {
+          "id": 740,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ULTRA B+K"
+        },
+        {
+          "id": 451,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "頓珍漢の宴"
+        },
+        {
+          "id": 776,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "にじよめちゃん体操第一億"
+        },
+        {
+          "id": 378,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "planet dancer"
+        },
+        {
+          "id": 840,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Imperishable Night 2006 (2016 Refine)"
+        },
+        {
+          "id": 1301,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "華の集落、秋のお届け"
+        },
+        {
+          "id": 836,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Good Bye, Mr. Jack"
+        },
+        {
+          "id": 1020,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Technicians High"
+        },
+        {
+          "id": 154,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "DO RORO DERODERO ON DO RORO"
+        },
+        {
+          "id": 1243,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ハジマリノピアノ"
+        },
+        {
+          "id": 557,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Last Brave ～ Go to zero"
+        },
+        {
+          "id": 314,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Cosmic Magic Shooter"
+        },
+        {
+          "id": 364,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "D✪N’T  ST✪P  R✪CKIN’"
+        },
+        {
+          "id": 1028,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "玩具狂奏曲 -終焉-"
+        },
+        {
+          "id": 482,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Party 4U ”holy nite mix”"
+        },
+        {
+          "id": 1792,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "はげしこの夜 -Psylent Crazy Night-"
+        }
+      ]
+    },
+    {
+      "id": "renshangren",
+      "name": "人上人",
+      "color": "#ffdf7f",
+      "charts": [
+        {
+          "id": 1668,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "PinqPiq (xovevox Remix)"
+        },
+        {
+          "id": 232,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Life Feels Good"
+        },
+        {
+          "id": 766,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "アマノジャクリバース feat. ｙｔｒ"
+        },
+        {
+          "id": 349,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ピーマンたべたら"
+        },
+        {
+          "id": 711,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "拝啓ドッペルゲンガー"
+        },
+        {
+          "id": 288,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "六兆年と一夜物語"
+        },
+        {
+          "id": 1679,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Beginning together!"
+        },
+        {
+          "id": 823,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "奏者はただ背中と提琴で語るのみ"
+        },
+        {
+          "id": 1808,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Feel The Luv"
+        },
+        {
+          "id": 1536,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Ether Second"
+        },
+        {
+          "id": 1237,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "蒼穹舞楽"
+        },
+        {
+          "id": 427,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "少女幻葬戦慄曲 ～ Necro Fantasia"
+        },
+        {
+          "id": 258,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Nyan Cat EX"
+        },
+        {
+          "id": 252,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "みんなのマイマイマー"
+        },
+        {
+          "id": 1308,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ヨミビトシラズ"
+        },
+        {
+          "id": 345,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "リッジでリッジでGO!GO!GO! -GMT mashup-"
+        },
+        {
+          "id": 1282,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "もぺもぺ"
+        },
+        {
+          "id": 1642,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "DANGEROOOOUS JUNGLE"
+        },
+        {
+          "id": 1412,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "初音天地開闢神話"
+        },
+        {
+          "id": 1438,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Reach For The Stars (Re-Colors)"
+        },
+        {
+          "id": 741,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "インビジブル"
+        },
+        {
+          "id": 561,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "いっしそう電☆舞舞神拳！"
+        },
+        {
+          "id": 1309,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "前衛的Landscape"
+        },
+        {
+          "id": 614,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "夢花火"
+        },
+        {
+          "id": 798,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "セイクリッド　ルイン"
+        },
+        {
+          "id": 1246,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "BOUNCE & DANCE"
+        },
+        {
+          "id": 1002,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "Secret Sleuth"
+        },
+        {
+          "id": 1415,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Dreadnought"
+        },
+        {
+          "id": 1514,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Lost Desire"
+        },
+        {
+          "id": 1825,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "JIGOKU STATION CENTRAL GATE"
+        },
+        {
+          "id": 1529,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ツムギボシ"
+        },
+        {
+          "id": 1007,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "超常マイマイン"
+        },
+        {
+          "id": 548,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "DETARAME ROCK&ROLL THEORY"
+        },
+        {
+          "id": 1159,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Beautiful Future"
+        },
+        {
+          "id": 109,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "腐れ外道とチョコレゐト"
+        },
+        {
+          "id": 1496,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Destiny Runner"
+        },
+        {
+          "id": 262,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "BREAK YOU!!"
+        },
+        {
+          "id": 1509,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "NightTheater"
+        },
+        {
+          "id": 1096,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "モ°ルモ°ル"
+        },
+        {
+          "id": 629,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "Limit Break"
+        },
+        {
+          "id": 1726,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Trust"
+        },
+        {
+          "id": 580,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "吉原ラメント"
+        },
+        {
+          "id": 467,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "儚きもの人間"
+        },
+        {
+          "id": 1671,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Edelweiss"
+        },
+        {
+          "id": 1204,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Sweet Requiem"
+        },
+        {
+          "id": 490,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Infantoon Fantasy"
+        },
+        {
+          "id": 1490,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Random"
+        },
+        {
+          "id": 496,
+          "type": "standard",
+          "difficulty": 2,
+          "title": "AMAZING MIGHTYYYY!!!!"
+        },
+        {
+          "id": 558,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "STAIRWAY TO GENERATION"
+        },
+        {
+          "id": 465,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "スリップフリップ"
+        },
+        {
+          "id": 1621,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ふらふらふら、"
+        },
+        {
+          "id": 448,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ありふれたせかいせいふく"
+        },
+        {
+          "id": 1827,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "サウンドプレイヤー"
+        }
+      ]
+    },
+    {
+      "id": "yiban",
+      "name": "一般",
+      "color": "#ffff7f",
+      "charts": [
+        {
+          "id": 1152,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "ぼくたちいつでも　しゅわっしゅわ！"
+        },
+        {
+          "id": 1225,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "VANTABLACK RAVER"
+        },
+        {
+          "id": 288,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "六兆年と一夜物語"
+        },
+        {
+          "id": 422,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "LANCE"
+        },
+        {
+          "id": 700,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "疾走あんさんぶる"
+        },
+        {
+          "id": 1656,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "HANIPAGANDA"
+        },
+        {
+          "id": 670,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ドーナツホール"
+        },
+        {
+          "id": 366,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "oboro"
+        },
+        {
+          "id": 283,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ネトゲ廃人シュプレヒコール"
+        },
+        {
+          "id": 1296,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "とびだせ！TO THE COSMIC!!"
+        },
+        {
+          "id": 1811,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "概して過誤"
+        },
+        {
+          "id": 439,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "最終鬼畜妹・一部声"
+        },
+        {
+          "id": 1690,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Baqeela"
+        },
+        {
+          "id": 1210,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "c.s.q.n."
+        },
+        {
+          "id": 1945,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "胡蝶乃舞"
+        },
+        {
+          "id": 101,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "おちゃめ機能"
+        },
+        {
+          "id": 1101,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "GRÄNDIR"
+        },
+        {
+          "id": 117,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "炎歌 -ほむらうた-"
+        },
+        {
+          "id": 838,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "最終鬼畜妹フランドール・S"
+        },
+        {
+          "id": 1432,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Princess♂"
+        },
+        {
+          "id": 1503,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Baddest"
+        },
+        {
+          "id": 849,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Kattobi KEIKYU Rider"
+        },
+        {
+          "id": 1387,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "星空パーティーチューン"
+        },
+        {
+          "id": 1806,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Fraq"
+        },
+        {
+          "id": 1788,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Löschen"
+        },
+        {
+          "id": 1830,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Tidal Wave"
+        },
+        {
+          "id": 209,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ココロスキャンのうた"
+        },
+        {
+          "id": 1211,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "カラッポ・ノンフィクション"
+        },
+        {
+          "id": 777,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "花と、雪と、ドラムンベース。"
+        },
+        {
+          "id": 1283,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Sound Chimera"
+        },
+        {
+          "id": 1424,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Estahv"
+        },
+        {
+          "id": 1390,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "OTOGEMA"
+        },
+        {
+          "id": 1828,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "crazy (about you)"
+        },
+        {
+          "id": 1213,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Arty Party"
+        },
+        {
+          "id": 574,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Selector"
+        },
+        {
+          "id": 261,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Death Scythe"
+        },
+        {
+          "id": 1214,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Jörqer"
+        },
+        {
+          "id": 1413,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Armageddon"
+        },
+        {
+          "id": 1474,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MAGNETAR GIRL"
+        },
+        {
+          "id": 1140,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Black Lair"
+        },
+        {
+          "id": 701,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Doll Judgment"
+        },
+        {
+          "id": 837,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Altale"
+        },
+        {
+          "id": 1647,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ozma"
+        },
+        {
+          "id": 1384,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "HAGAKIRI"
+        },
+        {
+          "id": 1648,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "月面基地"
+        },
+        {
+          "id": 682,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "人生リセットボタン"
+        },
+        {
+          "id": 1025,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2"
+        },
+        {
+          "id": 1663,
+          "type": "dx",
+          "difficulty": 2,
+          "title": "系ぎて"
+        },
+        {
+          "id": 1143,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "アトロポスと最果の探究者"
+        },
+        {
+          "id": 739,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "進め！イッスン軍団 -Rebellion of the Dwarfs-"
+        },
+        {
+          "id": 1418,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "enchanted love"
+        },
+        {
+          "id": 380,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "どうしてこうなった"
+        },
+        {
+          "id": 610,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "リンカーネイション"
+        },
+        {
+          "id": 1031,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "立川浄穢捕物帳"
+        },
+        {
+          "id": 1005,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "バーチャルダム　ネーション"
+        },
+        {
+          "id": 1652,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "HUMANBORG"
+        },
+        {
+          "id": 1065,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Yakumo >>JOINT STRUGGLE (2019 Update)"
+        },
+        {
+          "id": 493,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Imitation:Loud Lounge"
+        },
+        {
+          "id": 1379,
+          "type": "dx",
+          "difficulty": 2,
+          "title": "sølips"
+        },
+        {
+          "id": 830,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "立ち入り禁止"
+        },
+        {
+          "id": 839,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ネクロファンタジア～Arr.Demetori"
+        },
+        {
+          "id": 301,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "患部で止まってすぐ溶ける～狂気の優曇華院"
+        },
+        {
+          "id": 295,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "緋色のDance"
+        },
+        {
+          "id": 559,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "空威張りビヘイビア"
+        },
+        {
+          "id": 1142,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "NULCTRL"
+        },
+        {
+          "id": 1212,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "emomomo"
+        },
+        {
+          "id": 1395,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Jouez Avec Moi?"
+        },
+        {
+          "id": 1331,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "スーパーシンメトリー"
+        },
+        {
+          "id": 1400,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "folern"
+        },
+        {
+          "id": 1543,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "モ°ルモ°ル (MZK Skippin' Remix)"
+        },
+        {
+          "id": 1505,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "れっつ！みらくる☆はーどこあっ！"
+        },
+        {
+          "id": 767,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "進捗どうですか？"
+        },
+        {
+          "id": 1588,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Complex Mind"
+        },
+        {
+          "id": 1334,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Upshift"
+        },
+        {
+          "id": 1319,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ハードコア・シンドローム"
+        },
+        {
+          "id": 1528,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Comet Panto Men!"
+        },
+        {
+          "id": 598,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "すーぱーぬこになりたい"
+        },
+        {
+          "id": 1455,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "[X]"
+        },
+        {
+          "id": 1783,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "snooze"
+        },
+        {
+          "id": 1822,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Supersonic Generation"
+        },
+        {
+          "id": 1870,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "BlackFlagBreaker!!"
+        }
+      ]
+    },
+    {
+      "id": "npc",
+      "name": "NPC",
+      "color": "#bfff7f",
+      "charts": [
+        {
+          "id": 786,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "My First Phone"
+        },
+        {
+          "id": 539,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "エテルニタス・ルドロジー"
+        },
+        {
+          "id": 219,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "記憶、記録"
+        },
+        {
+          "id": 628,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "光線チューニング"
+        },
+        {
+          "id": 657,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "オーディエンスを沸かす程度の能力 feat.タイツォン"
+        },
+        {
+          "id": 720,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "ナンセンス文学"
+        },
+        {
+          "id": 1064,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Little \"Sister\" Bitch"
+        },
+        {
+          "id": 753,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Rodeo Machine"
+        },
+        {
+          "id": 1617,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "POWER OF UNITY"
+        },
+        {
+          "id": 1419,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Caterpillar Song"
+        },
+        {
+          "id": 1751,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Colorfull:Encounter"
+        },
+        {
+          "id": 1796,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ウルトラトレーラー"
+        },
+        {
+          "id": 1285,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MAKE IT FUNKY NOW"
+        },
+        {
+          "id": 520,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "木彫り鯰と右肩ゾンビ"
+        },
+        {
+          "id": 1236,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Last Samurai"
+        },
+        {
+          "id": 821,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "-OutsideR:RequieM-"
+        },
+        {
+          "id": 308,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Back 2 Back"
+        },
+        {
+          "id": 1616,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "my flow"
+        },
+        {
+          "id": 1141,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "energy trixxx"
+        },
+        {
+          "id": 367,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Dragoon"
+        },
+        {
+          "id": 1445,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "遺伝子レベル∞スパイラル"
+        },
+        {
+          "id": 1704,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "DUAL ROZES"
+        },
+        {
+          "id": 1800,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ピポピポ -People People- feat. ななひら"
+        },
+        {
+          "id": 461,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "無敵We are one!!"
+        },
+        {
+          "id": 1678,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "RE:INCARNATED DRAGNER"
+        },
+        {
+          "id": 1004,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MAXRAGE"
+        },
+        {
+          "id": 1553,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Last Kingdom"
+        },
+        {
+          "id": 252,
+          "type": "standard",
+          "difficulty": 4,
+          "title": "みんなのマイマイマー"
+        },
+        {
+          "id": 1807,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ウタヒメナイトストーム"
+        },
+        {
+          "id": 1301,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "華の集落、秋のお届け"
+        },
+        {
+          "id": 366,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "oboro"
+        },
+        {
+          "id": 1629,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "熱異常"
+        },
+        {
+          "id": 1459,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "You Mean the World to Me"
+        },
+        {
+          "id": 1075,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "プナイプナイせんそう"
+        },
+        {
+          "id": 1443,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "8-EM"
+        },
+        {
+          "id": 1733,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MUSIC PЯAYER"
+        },
+        {
+          "id": 1032,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "CHOCOLATE BOMB!!!!"
+        },
+        {
+          "id": 1804,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "How To Make 音ゲ～曲！"
+        },
+        {
+          "id": 1706,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "tiny tales continue"
+        },
+        {
+          "id": 1786,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Empire of Winter"
+        },
+        {
+          "id": 1631,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "IMAWANOKIWA"
+        },
+        {
+          "id": 1587,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Halfway(>∀<)"
+        },
+        {
+          "id": 1177,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "レーイレーイ"
+        },
+        {
+          "id": 1607,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MAGENTA POTION"
+        },
+        {
+          "id": 1637,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "バグ"
+        },
+        {
+          "id": 1699,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "新人類"
+        },
+        {
+          "id": 82,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "Reach For The Stars"
+        },
+        {
+          "id": 710,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer."
+        },
+        {
+          "id": 1770,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Ultimate taste"
+        },
+        {
+          "id": 1556,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Hello, Hologram"
+        },
+        {
+          "id": 1662,
+          "type": "dx",
+          "difficulty": 2,
+          "title": "raputa"
+        },
+        {
+          "id": 1466,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "群青シグナル"
+        },
+        {
+          "id": 1456,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "分解収束テイル"
+        },
+        {
+          "id": 1787,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "迷える音色は恋の唄"
+        },
+        {
+          "id": 1564,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "リスペク風神"
+        },
+        {
+          "id": 1383,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Irresistible"
+        },
+        {
+          "id": 1604,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "『ウソテイ』 ～一回戦せりなvsしろなvsなずな～"
+        },
+        {
+          "id": 1164,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "パラボラ"
+        },
+        {
+          "id": 1710,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "サイバーサンダーサイダー"
+        },
+        {
+          "id": 1292,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MEGATON KICK"
+        },
+        {
+          "id": 1758,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Radiance"
+        },
+        {
+          "id": 841,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "終点"
+        },
+        {
+          "id": 1638,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "星界ちゃんと可不ちゃんのおつかい合騒曲"
+        },
+        {
+          "id": 641,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Calamity Fortune"
+        },
+        {
+          "id": 1539,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "リフヴェイン"
+        },
+        {
+          "id": 1867,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "うぇいびー"
+        },
+        {
+          "id": 1023,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Blows Up Everything"
+        },
+        {
+          "id": 1702,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "New York Back Raise"
+        },
+        {
+          "id": 1645,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "トンデモワンダーズ"
+        },
+        {
+          "id": 1750,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Flashback"
+        },
+        {
+          "id": 1854,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "超最終鬼畜妹フランドール・S"
+        },
+        {
+          "id": 1676,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Lunatic Vibes"
+        },
+        {
+          "id": 1847,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "M@GICAL☆CURE! LOVE ♥ SHOT!"
+        },
+        {
+          "id": 326,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "コトバ・カラフル"
+        },
+        {
+          "id": 1195,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "マネマネサイコトロピック"
+        },
+        {
+          "id": 1723,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "BOOM! BOOM!! BOOM!!!"
+        },
+        {
+          "id": 1740,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "果ての空、僕らが見た光。"
+        },
+        {
+          "id": 1393,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "白花の天使"
+        },
+        {
+          "id": 1092,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "My My My"
+        },
+        {
+          "id": 1844,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "モエチャッカファイア"
+        },
+        {
+          "id": 401,
+          "type": "standard",
+          "difficulty": 3,
+          "title": "赤心性：カマトト荒療治"
+        },
+        {
+          "id": 699,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "天狗の落とし文 feat. ｙｔｒ"
+        },
+        {
+          "id": 1541,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "宵の鳥"
+        },
+        {
+          "id": 1547,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Churros Parlor"
+        },
+        {
+          "id": 1874,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "NO ONE YES MAN"
+        },
+        {
+          "id": 1826,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Lover's Trick"
+        }
+      ]
+    },
+    {
+      "id": "lawanle",
+      "name": "拉完了",
+      "color": "#7fffff",
+      "charts": [
+        {
+          "id": 1175,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "宛城、炎上！！"
+        },
+        {
+          "id": 1834,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "月光"
+        },
+        {
+          "id": 1784,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "イガク"
+        },
+        {
+          "id": 1288,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Big Daddy"
+        },
+        {
+          "id": 1779,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "プラネタリウム・レヴュー"
+        },
+        {
+          "id": 1022,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "TwisteD! XD"
+        },
+        {
+          "id": 1769,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ずんだパーリナイ"
+        },
+        {
+          "id": 1208,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Cyaegha"
+        },
+        {
+          "id": 1566,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Knight Rider"
+        },
+        {
+          "id": 1772,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "人マニア"
+        },
+        {
+          "id": 1832,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "きゅびびびびずむ"
+        },
+        {
+          "id": 1512,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "きゅうくらりん"
+        },
+        {
+          "id": 1590,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "あつすぎの歌"
+        },
+        {
+          "id": 1682,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Geranium"
+        },
+        {
+          "id": 1343,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "マツヨイナイトバグ"
+        },
+        {
+          "id": 1542,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ここからはじまるプロローグ。 (Kanon Remix)"
+        },
+        {
+          "id": 1944,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Restricted Access"
+        },
+        {
+          "id": 1620,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "フェイクフェイス・フェイルセイフ"
+        },
+        {
+          "id": 1231,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "生命不詳"
+        },
+        {
+          "id": 1584,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "コンティニュー！ feat. 藍月なくる"
+        },
+        {
+          "id": 1342,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "幻想に咲いた花"
+        },
+        {
+          "id": 1573,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Final Step!"
+        },
+        {
+          "id": 1447,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "エゴロック"
+        },
+        {
+          "id": 1730,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "偉大なる悪魔は実は大天使パトラちゃん様なのだ！"
+        },
+        {
+          "id": 1232,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "Never Give Up!"
+        },
+        {
+          "id": 1232,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Never Give Up!"
+        },
+        {
+          "id": 1803,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "MORNINGLOOM"
+        },
+        {
+          "id": 1724,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Everybody Say HARDCORE TANO*C"
+        },
+        {
+          "id": 1689,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "最っ高のエンタメだ!!"
+        },
+        {
+          "id": 1100,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "シエルブルーマルシェ"
+        },
+        {
+          "id": 1838,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "メズマライザー"
+        },
+        {
+          "id": 1533,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "にゃーにゃー冒険譚"
+        },
+        {
+          "id": 1919,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "エンジェル ドリーム"
+        },
+        {
+          "id": 30,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ネコ日和。"
+        },
+        {
+          "id": 1291,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ヒミツCULT"
+        },
+        {
+          "id": 1657,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Rush-Hour"
+        },
+        {
+          "id": 1021,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "魔ジョ狩リ"
+        },
+        {
+          "id": 1734,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "壱雫空"
+        },
+        {
+          "id": 1716,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "バカ通信"
+        },
+        {
+          "id": 1756,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Resolution"
+        },
+        {
+          "id": 1524,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Alice's Suitcase"
+        },
+        {
+          "id": 625,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Maxi"
+        },
+        {
+          "id": 1561,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "おとせサンダー"
+        },
+        {
+          "id": 1738,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "YKWTD"
+        },
+        {
+          "id": 1453,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Rainbow Rush Story"
+        },
+        {
+          "id": 1527,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "enchanted wanderer"
+        },
+        {
+          "id": 1293,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "LOSE CONTROL"
+        },
+        {
+          "id": 1761,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "病み垢ステロイド"
+        },
+        {
+          "id": 363,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Oshama Scramble!"
+        },
+        {
+          "id": 1525,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ピュグマリオンの咒文"
+        },
+        {
+          "id": 1404,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "See The Light"
+        },
+        {
+          "id": 1869,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ホラフキパペット"
+        },
+        {
+          "id": 1776,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ゆけむり魂温泉 II"
+        },
+        {
+          "id": 1812,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Unfinished Epic"
+        },
+        {
+          "id": 1824,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "なんかノイズにきこえる"
+        },
+        {
+          "id": 1669,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "エスオーエス"
+        },
+        {
+          "id": 1692,
+          "type": "dx",
+          "difficulty": 4,
+          "title": "INTERNET YAMERO"
+        },
+        {
+          "id": 1498,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "モンダイナイトリッパー！"
+        },
+        {
+          "id": 1747,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "地獄"
+        },
+        {
+          "id": 1829,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Drivessover"
+        },
+        {
+          "id": 1633,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "OMAKENO Stroke"
+        },
+        {
+          "id": 1797,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "バベル"
+        },
+        {
+          "id": 1820,
+          "type": "dx",
+          "difficulty": 2,
+          "title": "Xaleid◆scopiX"
+        },
+        {
+          "id": 1875,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Leave All Behind"
+        },
+        {
+          "id": 1877,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "Luminescence"
+        },
+        {
+          "id": 1859,
+          "type": "dx",
+          "difficulty": 3,
+          "title": "ありきたりな恋の歌"
+        }
+      ]
+    }
+  ]
+}
